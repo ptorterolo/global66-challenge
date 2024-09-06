@@ -10,7 +10,6 @@
 
 <script setup lang="ts">
 import IconFav from './icons/IconFav.vue';
-import { defineProps } from 'vue';
 const emit = defineEmits(['handleFavorite']);
 
 defineProps({
