@@ -41,3 +41,7 @@ Para finalizar generé testings unitarios para los componentes. Este topic es re
   npm run dev
 ```
 
+5. Correr los testings
+```
+  npm run test:unit
+```

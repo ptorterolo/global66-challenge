@@ -3,7 +3,7 @@
     <div class="fixed inset-0 flex items-center justify-center z-50">
         <div class="fixed inset-0 bg-black opacity-50"></div>
         <div class="rounded min-w-80 lg:w-1/4 relative z-10">
-            <div class="bg-pokemon bg-center min-h-56 relative flex items-center justify-center">
+            <div class="pokemon-bg bg-center min-h-56 relative flex items-center justify-center">
                 <button @click.stop="emit('close')" class="absolute top-4 right-4">
                     <IconClose class="w-6 h-6 text-white" />
                 </button>
@@ -55,4 +55,8 @@ function copyData() {
 
 </script>
 
-<style scoped></style>
+<style scoped>
+.pokemon-bg {
+    background-image: url('../assets/images/pokemon-bg.png');
+}
+</style>
