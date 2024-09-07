@@ -49,6 +49,7 @@ function getTypes(types: PokemonTypes[]) {
 function copyData() {
     const pokemonData = `Name: ${props.pokemon.name}\nWeight: ${props.pokemon.weight}\nHeight: ${props.pokemon.height}\nTypes: ${props.pokemon.types.map(type => type.type.name).join(', ')}`;
     navigator.clipboard.writeText(pokemonData);
+    alert('Data copied to clipboard');
 }
 
 
